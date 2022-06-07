@@ -3,9 +3,14 @@ layout: post
 title: "A code snippet"
 date: 2022-06-07
 categories: code python 
+excerpt_separator: <!--more-->
 ---
 
 # How to flatten a list in pyton
+
+How to flatten a list of list in python?
+
+<!--more-->
 
   def flatten(l, ltypes=(list, tuple)):
       ltype = type(l)
