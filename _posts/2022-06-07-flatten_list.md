@@ -11,7 +11,7 @@ excerpt_separator: <!--more-->
 How to flatten a list of list in python?
 
 <!--more-->
-
+'''
   def flatten(l, ltypes=(list, tuple)):
       ltype = type(l)
       l = list(l)
@@ -31,5 +31,5 @@ How to flatten a list of list in python?
   for i in xrange(2000):
     a = [a, i]
   a = flatten(a)
-  
+ '''python
 [sources](http://rightfootin.blogspot.com/2006/09/more-on-python-flatten.html)
